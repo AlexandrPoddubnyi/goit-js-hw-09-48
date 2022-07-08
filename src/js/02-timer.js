@@ -1,6 +1,18 @@
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+const timerDiv = document.querySelector('.timer');
+timerDiv.setAttribute('style', 'display: flex');
+const timerCountDivs = document.querySelectorAll('.field');
+timerCountDivs[0].setAttribute('style', 'display: flex; flex-direction: column ; align-items: center; margin-left: 20px');
+timerCountDivs[1].setAttribute('style', 'display: flex; flex-direction: column ; align-items: center; margin-left: 20px');
+timerCountDivs[2].setAttribute('style', 'display: flex; flex-direction: column ; align-items: center; margin-left: 20px');
+timerCountDivs[3].setAttribute('style', 'display: flex; flex-direction: column ; align-items: center; margin-left: 20px');
+const input = document.querySelector('input');
+input.setAttribute('style','margin-left: 45px')
+//////////////////////////////////////////////////////////////////////////////////////////////
+
 const startButton = document.querySelector('button');
 startButton.setAttribute('disabled', true);
 

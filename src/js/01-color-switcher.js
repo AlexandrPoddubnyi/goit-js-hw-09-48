@@ -19,9 +19,6 @@ buttonStart.addEventListener('click', (e) => {
   console.log(timerId)
 });
  
-//  const color = getRandomHexColor();
-//   body.style.backgroundColor = color
-//   timerId = setInterval(getRandomHexColor, 1000) 
 
 
 function onStopButton(evt) {
